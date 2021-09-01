@@ -1,0 +1,70 @@
+Exercise 1:
+https://github.com/sprasad123/Exercise-1
+
+Exercise 2:
+https://github.com/sprasad123/Exercise-2
+
+Exercise 3:
+https://github.com/sprasad123/Exercise-3
+
+Exercise 4:
+https://github.com/sprasad123/Exercise-4
+
+Exercise 5:
+https://github.com/sprasad123/Exercise-5.git
+
+git init
+git checkout -b testing
+git remote add origin https://github.com/sprasad123/Exercise-5.git
+git stash
+
+Exercise 6:
+https://github.com/sprasad123/Exercise-6
+
+git init
+git add about.html
+git commit -m "Adding about"
+git remote add origin https://github.com/sprasad123/Exercise-6.git
+git push -u origin master
+git add about.html
+git commit -m "Add location in paragraph" 
+git push
+git add about.html
+git commit -m "Added favorite food"
+git push
+git log
+git reset --soft HEAD~2
+git status
+
+=> git status output is:
+On branch master
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   about.html
+
+Exercise 7:
+https://github.com/sprasad123/Exercise-7
+
+git init
+git add about.html
+git commit -m "Added about.html"
+git remote add origin https://github.com/sprasad123/Exercise-7.git
+git push -u origin master
+git add about.html
+git commit -m "Added favorite color" 
+git push
+git add about.html
+git commit -m "Added favorite food"
+git push
+git log
+git reset --hard HEAD~1
+git status
+
+Exercise 8:
+https://github.com/sprasad123/Exercise-8
+
+Exercise 9:
+https://github.com/sprasad123/Exercise-9
